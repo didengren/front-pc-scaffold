@@ -1,0 +1,55 @@
+@charset"utf-8";
+/* CSS Document  */
+*{margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,hr,p,pre,form,fieldset,legend,button,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body, button, input, select, textarea {font:12px/1.5 "Microsoft YaHei",微软雅黑, Georgia, Tahoma, arial, \5b8b\4f53;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight: normal;}
+em, i {font-style:normal;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+a {text-decoration:none;outline:none;}
+button, input, select, textarea {font-size:100%;outline:none;}
+caption {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+
+
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.cb{clear:both}
+.vm{vertical-align:middle}
+.pr{position:relative}
+.pa{position:absolute}
+.hidden{visibility:hidden}
+.none{display:none}
+/*.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}*/
+/*.zoom{zoom:1}*/
+/*适用IE*/
+.clearfix {
+	zoom:1;/*清除浮动免受近邻干扰、解决margin重叠*/
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.bc{margin-left:auto;margin-right:auto;}
+.cl{clear:left}
+.cr{clear:right}
+.abs-right{position:absolute;right:0}
+
+
